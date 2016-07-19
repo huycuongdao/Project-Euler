@@ -8,7 +8,6 @@ namespace ProjectEuler
 {
     // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
     // Find the sum of all the multiples of 3 or 5 below 1000.
-
     class Problem_1
     {
         private int result { get; set; } = 0;
@@ -47,4 +46,47 @@ namespace ProjectEuler
 
         }
     }
+
+    // UNSOLVED - Problem 3 - Largest prime factor
+    // Largest prime factor
+    class Problem_3
+    {
+        private long number { get; set; } = 0;
+
+        private long result { get; set; }
+
+        public Problem_3()
+        {
+            Console.Write("Number = ");
+            number = Convert.ToInt64(Console.ReadLine());
+            ResolveProblem(number);
+        }
+
+        public void ResolveProblem(long number)
+        {
+            for (long i = 2; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+    }
+
+    // UNSOLVED - Problem 4 - Largest palindrome
+    // A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+    // Find the largest palindrome made from the product of two 3-digit numbers.
+    class Problem_4
+    {
+    }
+
+    // Problem 5 - Smallest multiple
+    // 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+    // What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+    class Problem_5
+    {
+
+    }
+
 }

@@ -10,8 +10,8 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Problem_1 problem_1 = new Problem_1();
-            problem_1.solveProblem_1();
+            Problem_3 prob = new Problem_3();
+
         }
     }
 }
