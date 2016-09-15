@@ -89,4 +89,45 @@ namespace ProjectEuler
 
     }
 
+
+    // Problem 7 - 10001st prime
+    // By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+    // What is the 10 001st prime number?
+    class Problem_7
+    {
+        public long Prime(int n)
+        {
+            long res = 2;
+
+            int count = 0;
+
+            while (count < n)
+            {
+
+                if (IsPrime(res))
+                {
+                    count++;
+                    res++;
+                }
+                else
+                {
+                    res++;
+                }
+            }
+
+            return res - 1;
+
+        }
+
+        public bool IsPrime(long n)
+        {
+            for (long i = 2; i < n; i++)
+            {
+                if (n % i == 0)
+                    return false;
+            }
+            return true;
+        }
+    }
+
 }

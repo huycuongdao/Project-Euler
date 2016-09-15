@@ -10,7 +10,16 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Problem_3 prob = new Problem_3();
+            Problem_7 prob = new Problem_7();
+
+            //for (int i = 2; i < 30; i++)
+            //{
+            //    Console.WriteLine(i + " " + prob.IsPrime(i));
+            //}
+
+
+
+            Console.WriteLine(prob.Prime(10001));
 
         }
     }

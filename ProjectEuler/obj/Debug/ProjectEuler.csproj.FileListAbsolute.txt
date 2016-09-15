@@ -4,3 +4,9 @@ G:\C#\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
 G:\C#\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
 G:\C#\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
 G:\C#\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+H:\Code\C#\Project-Euler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+H:\Code\C#\Project-Euler\ProjectEuler\obj\Debug\ProjectEuler.exe
+H:\Code\C#\Project-Euler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+H:\Code\C#\Project-Euler\ProjectEuler\bin\Debug\ProjectEuler.exe
+H:\Code\C#\Project-Euler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+H:\Code\C#\Project-Euler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
